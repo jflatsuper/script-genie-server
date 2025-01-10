@@ -1,0 +1,5 @@
+google-generative-ai
+pydantic
+fastapi
+python-dotenv
+
