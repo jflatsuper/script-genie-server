@@ -9,7 +9,6 @@ load_dotenv()
 
 title_router = APIRouter(prefix="/title", tags=["title"])
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY")
-print(GEMINI_API_KEY)
 
 
 @title_router.post("/generate-intro")
